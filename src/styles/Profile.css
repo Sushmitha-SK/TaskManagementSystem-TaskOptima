@@ -1,0 +1,66 @@
+.MuiPaper-root {
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    color: #000;
+}
+
+.MuiPaper-root-right {
+    background-color: #fff;
+    padding: 8px;
+    text-align: left;
+    color: #000;
+}
+
+.MuiPaper-root .MuiGrid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes bgcolorChange {
+    25% {
+        background-position: left bottom;
+    }
+
+    50% {
+        background-position: right bottom;
+    }
+
+    75% {
+        background-position: right top;
+    }
+
+    100% {
+        background-position: left top;
+    }
+}
+
+.profile-card__header__pic img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-card__header {
+    background: #fdfefd;
+    padding: 3rem 3.5rem;
+}
+
+.profile-card__header__pic {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    background: linear-gradient(130deg, #74b9ff, #458ff6);
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: bgcolorChange 2s linear infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+    .MuiPaper-root {
+        background-color: #1a2027;
+        color: #fff;
+    }
+}
