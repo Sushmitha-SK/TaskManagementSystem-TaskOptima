@@ -2,6 +2,11 @@
 
 A web-based task management frontend developed for efficient task organization and tracking.
 
+**Technologies Used:**
+- React.js
+- Redux
+- Material UI
+
 Credentials for Admin login:
 - Email: admin@admin.com
 - Password: admin
