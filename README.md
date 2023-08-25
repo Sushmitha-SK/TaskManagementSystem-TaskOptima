@@ -3,5 +3,7 @@
 A web-based task management system using the MERN stack.
 
 Credentials for Admin login:
-email: admin@admin.com
-password:admin
+- Email: admin@admin.com
+- Password: admin
+
+**Note:** During the initial launch, there might be a slight delay as the backend server sets up configurations and caches. Subsequent startups will be faster.
