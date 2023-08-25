@@ -1,6 +1,6 @@
 # Task Management System
 
-A web-based task management system using the MERN stack.
+A web-based task management frontend developed for efficient task organization and tracking.
 
 Credentials for Admin login:
 - Email: admin@admin.com
